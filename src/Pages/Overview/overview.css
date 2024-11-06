@@ -1,0 +1,99 @@
+.overview {
+  padding: 5rem 5rem;
+}
+
+.totalStudent {
+  background: #ffe2e5;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+.totalStudent a {
+  text-decoration: none;
+}
+
+.totalStudent i {
+  font-size: 40px;
+}
+
+.totalCenters {
+  background: #fff4de;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+.totalCenters a {
+  text-decoration: none;
+}
+.totalCenters i {
+  font-size: 40px;
+}
+
+.course {
+  background: #dcfce7;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+.course a {
+  text-decoration: none;
+}
+.course i {
+  font-size: 40px;
+}
+
+.counsellor {
+  background: #ffcdfeb2;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+.counsellor i {
+  font-size: 40px;
+}
+.counsellor a {
+  text-decoration: none;
+}
+
+.totalStudent img {
+  background: #fa5a7d;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+.totalCenters img {
+  background: #ff947a;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+.course img {
+  background: #3cd856;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+.counsellor img {
+  background: #bf83ff;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width:768px) {
+    .overview{
+        padding: 1rem;
+    }
+    .overview .row .col{
+        margin-bottom: 1rem;
+    }
+
+    .totalCenters , .totalStudent , .course , .counsellor{
+        padding: 1rem;
+    }
+}

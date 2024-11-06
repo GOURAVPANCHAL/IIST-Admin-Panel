@@ -1,0 +1,40 @@
+.custom-header {
+    background-color: var(--color-blue);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-left h5 {
+    margin: 0;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .header-right span {
+    margin-left: 15px;
+  }
+  
+  .header-right i {
+    font-size: 1.2rem;
+  }
+  
+
+  @media only screen and (max-width:768px) {
+    .header-left h5{
+      font-size: 16px;
+    }
+    .header-right {
+      gap: 2px;
+    }
+  }

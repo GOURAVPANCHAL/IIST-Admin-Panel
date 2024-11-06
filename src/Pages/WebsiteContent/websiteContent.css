@@ -1,0 +1,12 @@
+.HomeBannerForm {
+  max-width: 50%;
+  margin: 0 auto;
+  border: 5px dotted red;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.homegalleryImg{
+  height: auto;
+  width: 100%;
+}
